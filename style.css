@@ -1,6 +1,38 @@
 *{
-    margin: 0;
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+section{
+    background-color: aqua;
+    border: 1px solid black;
+    margin: 2%;
+}
+.text-box{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.large-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+    height: 300px;
+}
+.small-container{
+    background-color: beige;
+    width: 300px;
+    border-radius: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid black;
+}
+h2{
+    color: blue;
+    margin: 2%;
+    text-align: center;
+    justify-content: center;
 }
